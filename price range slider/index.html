@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range price slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="priceSlider">
+        <h1>Price Range:</h1>
+        <p>Move Slider to choose the price range.</p> 
+            
+        <div class="min-max">
+         <div class="min">
+             <label>Min</label>
+             <span id="min-value"></span>
+         </div>
+         <div class="max">
+             <label>Max</label>
+              <span id="max-value"></span>
+         </div>     
+        </div> 
+            
+        <div class="min-max-range">
+        <input type="range" min="0" max="5000" value="2000" class="range" id="min">
+        <input type="range" min="5001" max="10000" value="8000" class="range" id="max">      
+        </div>    
+            
+        <div style="clear: both;"></div>    
+        </div> 
+    <script src="script.js"></script>
+</body>
+</html>
